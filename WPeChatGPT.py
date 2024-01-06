@@ -271,7 +271,7 @@ def query_model(query, cb, max_tokens=2500):
     """
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4",
             messages=[
                 {"role": "user", "content": query}
             ]
